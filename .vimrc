@@ -9,3 +9,4 @@ set statusline+=%=                  " Align right
 set statusline+=%(%l,%c%V\ %=\ %P%) " Show ruler
 set cc=+1
 color torte
+set mouse=a
