@@ -1,0 +1,17 @@
+#!/bin/ksh
+#
+# https://www.romanzolotarev.com/bin/screenshot
+# Copyright 2018 Roman Zolotarev <hi@romanzolotarev.com>
+#
+# pkg_add slop ImageMagick
+#
+set -e
+
+DIR="$HOME/downloads/screen/"
+AREA="$(slop -o)"
+FILENAME="$DIR/$RANDOM-${AREA%%+*}.png"
+
+mkdir -p $DIR
+import -window root -crop "$AREA" "$FILENAME"
+[ -n "$1" ] && convert -scale "${1}%" "$FILENAME" "$FILENAME"
+/usr/local/bin/firefox $FILENAME

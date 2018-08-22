@@ -1,0 +1,16 @@
+bind-key M-Return       terminal
+bind-key M-t            window-maximize
+
+bind-key M-b            "xbacklight -dec 10 -time 0"
+bind-key MS-b           "xbacklight -inc 10 -time 0"
+
+color    activeborder   "#444444"
+color    inactiveborder "#000000"
+fontname fixed-13
+snapdist 20
+sticky   yes
+
+command  calc           "xcalc"
+command  console        "xconsole"
+command  terminal       "xterm"
+command  firefox        "firefox"

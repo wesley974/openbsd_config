@@ -1,0 +1,47 @@
+#!/bin/ksh
+
+# Changes
+
+# .profile
+# /etc/doas.conf
+# .vimrc
+# .gemrc
+# .cwmrc
+# .irbrc
+# .Xdefaults
+# .tmux.conf
+# .xsession
+# /etc/X11/xenodm/Xresources
+# /etc/X11/xenodm/Xsetup_0
+# bin/screenshot
+# bin/screencapture
+
+pkg_add git ruby%2.5 most vim--no_x11 tmate screenfetch firefox w3m-- \
+  ImageMagick slop ffmpeg mpv
+
+ln -sf /usr/local/bin/ruby25 /usr/local/bin/ruby
+ln -sf /usr/local/bin/erb25 /usr/local/bin/erb
+ln -sf /usr/local/bin/irb25 /usr/local/bin/irb
+ln -sf /usr/local/bin/rdoc25 /usr/local/bin/rdoc
+ln -sf /usr/local/bin/ri25 /usr/local/bin/ri
+ln -sf /usr/local/bin/rake25 /usr/local/bin/rake
+ln -sf /usr/local/bin/gem25 /usr/local/bin/gem
+
+gem install bundler rubycritic rubocop guard rspec
+
+ln -sf /usr/local/bin/bundle25 /usr/local/bin/bundle
+ln -sf /usr/local/bin/bundler25 /usr/local/bin/bundler
+ln -sf /usr/local/bin/rubycritic25 /usr/local/bin/rubycritic
+ln -sf /usr/local/bin/rubocop25 /usr/local/bin/rubocop
+ln -sf /usr/local/bin/guard25 /usr/local/bin/guard
+ln -sf /usr/local/bin/rspec25 /usr/local/bin/rspec
+
+mkdir -p $HOME/ruby
+mkdir -p $HOME/shell
+mkdir -p $HOME/tmp
+
+# alt-enter : new xterm
+# alt-left_clic : move window
+# alt-third_clic : resize window
+# ctrl-alt-x : close window
+# alt-t : max window

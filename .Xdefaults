@@ -1,0 +1,38 @@
+! Xft.dpi:                 133
+XIdle.timeout:           300
+XLock.background:        #ffffff
+XLock.foreground:        #ffffff
+XLock.icongeometry:      1x1
+XLock.lockdelay:         2
+
+Xcursor.theme: dmz
+Xcursor.size: 96
+
+XTerm*font:              -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso10646-1
+! XTerm*font:              -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso10646-1
+! XTerm*font:              -misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+! XTerm*faceName: DejaVu Sans Mono:size=12
+
+XTerm*internalBorder:    10
+XTerm*loginShell:        true
+XTerm*scrollBar:         false
+XTerm*selectToClipboard: true
+
+XTerm*background:        #141414
+XTerm*foreground:        #eeeeee
+XTerm*color0:   #000000
+XTerm*color1:   #ff6c60
+XTerm*color2:   #a8ff60
+XTerm*color3:   #ffffb6
+XTerm*color4:   #6a96ca
+XTerm*color5:   #ff73fd
+XTerm*color6:   #c6c5fe
+XTerm*color7:   #eeeeee
+XTerm*color8:   #7c7c7c
+XTerm*color9:   #ffb6b0
+XTerm*color10:  #ceffab
+XTerm*color11:  #ffffcb
+XTerm*color12:  #b6dcfe
+XTerm*color13:  #ff9cfe
+XTerm*color14:  #dfdffe
+XTerm*color15:  #ffffff
