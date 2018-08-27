@@ -27,5 +27,6 @@ alias calc='perl -pe "print eval(\$_) . chr(10);"'
 alias manfile='groff -man -Tascii \!* | less'
 alias view='vim -R'
 alias see='netstat -anf inet | grep ESTABLISHED'
+alias wp='cd /var/www/wordpress'
 
 umask 022
