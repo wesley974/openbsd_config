@@ -26,5 +26,6 @@ alias speedtest='wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 alias calc='perl -pe "print eval(\$_) . chr(10);"'
 alias manfile='groff -man -Tascii \!* | less'
 alias view='vim -R'
+alias see='netstat -anf inet | grep ESTABLISHED'
 
 umask 022
