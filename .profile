@@ -7,7 +7,7 @@ export PATH HOME TERM
 
 export HISTSIZE=1000
 export HISTFILE=$HOME/.history
-export PS1='\W $ '
+export PS1='\W \$ '
 export PAGER='most'
 export LC_CTYPE=UTF-8
 export LANG=UTF-8
