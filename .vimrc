@@ -10,3 +10,11 @@ set statusline+=%(%l,%c%V\ %=\ %P%) " Show ruler
 set cc=+1
 color torte
 " set mouse=a
+set ttyfast
+set encoding=utf-8 nobomb
+set binary
+set noeol
+set hlsearch
+"set ignorecase
+set incsearch
+set title
