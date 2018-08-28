@@ -45,3 +45,6 @@ mkdir -p $HOME/tmp
 # alt-third_clic : resize window
 # ctrl-alt-x : close window
 # alt-t : max window
+
+(cd /usr/local/sbin ; ftp https://stable.mtier.org/openup)
+chmod +x /usr/local/sbin/openup
