@@ -29,4 +29,5 @@ alias view='vim -R'
 alias see='netstat -anf inet | grep ESTABLISHED'
 alias wp='cd /var/www/wordpress'
 alias ports='netstat -anf inet | grep LISTEN'
+alias tb='nc termbin.com 9999'
 umask 022
