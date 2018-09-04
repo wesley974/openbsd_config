@@ -12,7 +12,7 @@ export PAGER='most'
 export LC_CTYPE=UTF-8
 export LANG=UTF-8
 
-alias l='ls -aF'
+alias l='ls -aFhtlr'
 alias git_set_name='git config --global user.name wesley974'
 alias git_set_email='git config --global user.email milo974@gmail.com'
 alias git_store_credentials='git config credential.helper store'
@@ -30,4 +30,5 @@ alias see='netstat -anf inet | grep ESTABLISHED'
 alias wp='cd /var/www/wordpress'
 alias ports='netstat -anf inet | grep LISTEN'
 alias tb='nc termbin.com 9999'
+alias gp='openssl rand -base64 48 | sed "s/[=O/\+]//g"'
 umask 022
