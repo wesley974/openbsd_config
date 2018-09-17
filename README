@@ -17,7 +17,7 @@
 # bin/screencapture
 
 pkg_add git ruby%2.5 most vim--no_x11 tmate screenfetch firefox w3m-- \
-  ImageMagick slop ffmpeg mpv GeoIP
+  ImageMagick slop ffmpeg mpv GeoIP dos2unix
 
 ln -sf /usr/local/bin/ruby25 /usr/local/bin/ruby
 ln -sf /usr/local/bin/erb25 /usr/local/bin/erb
