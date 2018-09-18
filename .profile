@@ -31,4 +31,5 @@ alias wp='cd /var/www/wordpress'
 alias ports='netstat -anf inet | grep LISTEN'
 alias tb='nc termbin.com 9999'
 alias gp='openssl rand -base64 48 | sed "s/[=O/\+]//g"'
+alias genkey='ssh-keygen -t ed25519'
 umask 022
