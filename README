@@ -27,7 +27,7 @@ ln -sf /usr/local/bin/ri25 /usr/local/bin/ri
 ln -sf /usr/local/bin/rake25 /usr/local/bin/rake
 ln -sf /usr/local/bin/gem25 /usr/local/bin/gem
 
-gem install bundler rubycritic rubocop guard rspec
+gem install bundler rubycritic rubocop guard rspec rake shotgun
 
 ln -sf /usr/local/bin/bundle25 /usr/local/bin/bundle
 ln -sf /usr/local/bin/bundler25 /usr/local/bin/bundler
@@ -35,6 +35,8 @@ ln -sf /usr/local/bin/rubycritic25 /usr/local/bin/rubycritic
 ln -sf /usr/local/bin/rubocop25 /usr/local/bin/rubocop
 ln -sf /usr/local/bin/guard25 /usr/local/bin/guard
 ln -sf /usr/local/bin/rspec25 /usr/local/bin/rspec
+ln -sf /usr/local/bin/rackup25 /usr/local/bin/rackup
+ln -sf /usr/local/bin/shotgun25 /usr/local/bin/shotgun
 
 mkdir -p $HOME/ruby
 mkdir -p $HOME/shell
