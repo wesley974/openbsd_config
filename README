@@ -11,6 +11,7 @@
 # .Xdefaults
 # .tmux.conf
 # .xsession
+# .rspec
 # /etc/X11/xenodm/Xresources
 # /etc/X11/xenodm/Xsetup_0
 # bin/screenshot
