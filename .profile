@@ -13,6 +13,7 @@ export LC_CTYPE=UTF-8
 export LANG=UTF-8
 
 alias l='ls -aFhtlr'
+alias ls='ls -F'
 alias git_set_name='git config --global user.name wesley974'
 alias git_set_email='git config --global user.email milo974@gmail.com'
 alias git_store_credentials='git config credential.helper store'
