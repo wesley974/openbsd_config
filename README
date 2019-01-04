@@ -28,7 +28,7 @@ ln -sf /usr/local/bin/ri25 /usr/local/bin/ri
 ln -sf /usr/local/bin/rake25 /usr/local/bin/rake
 ln -sf /usr/local/bin/gem25 /usr/local/bin/gem
 
-gem install bundler rubycritic rubocop guard rspec rake shotgun
+gem install bundler rubycritic rubocop guard rspec rack shotgun awesome_print
 
 ln -sf /usr/local/bin/bundle25 /usr/local/bin/bundle
 ln -sf /usr/local/bin/bundler25 /usr/local/bin/bundler
