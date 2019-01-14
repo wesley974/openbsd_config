@@ -22,7 +22,7 @@ alias halt='doas halt -p'
 alias reboot='doas reboot'
 alias ip='curl ipinfo.io/ip'
 alias lsd='ls -d */'
-alias vi='vim'
+alias vi=vim
 alias speedtest='wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip'
 alias calc='perl -pe "print eval(\$_) . chr(10);"'
 alias manfile='groff -man -Tascii \!* | less'
@@ -33,4 +33,5 @@ alias ports='netstat -anf inet | grep LISTEN'
 alias tb='nc termbin.com 9999'
 alias gp='openssl rand -base64 48 | sed "s/[=O/\+]//g"'
 alias genkey='ssh-keygen -t ed25519'
+alias sudo=sl
 umask 022
