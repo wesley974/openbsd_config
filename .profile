@@ -35,3 +35,6 @@ alias gp='openssl rand -base64 48 | sed "s/[=O/\+]//g"'
 alias genkey='ssh-keygen -t ed25519'
 alias sudo=sl
 umask 022
+
+trap '/bin/pwd > $HOME/.last_dir' 0
+cd $(cat $HOME/.last_dir)
