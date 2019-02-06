@@ -38,3 +38,6 @@ umask 022
 
 trap '/bin/pwd > $HOME/.last_dir' 0
 cd $(cat $HOME/.last_dir)
+
+# clear your screen with a ^L
+bind -m '^L'=clear'^J'
